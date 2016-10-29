@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IntentDemo</string>
+    <string name="app_name1">IntentDemo1</string>
+    <string name="hello">欢迎进入IntentDemo1的博客</string>
+    <string name="hello1">欢迎进入IntentDemo的博客</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_string">点击进入IntentDemo1的博客</string>
+    <string name="btn_string1">点击进入IntentDemo的博客</string>
+
+</resources>
