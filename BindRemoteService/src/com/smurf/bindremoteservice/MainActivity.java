@@ -45,15 +45,18 @@ public class MainActivity extends Activity implements OnClickListener {
 	
 	public void onClick(View v){
 		if(v.equals(bind)){
+			Log.e(TAG, "点击bind");
 			Intent intent = new Intent();
 			intent.setAction("com.smurf.remoteService");
 			intent.setPackage("com.smurf.remoteservicedemo");
 			bindService(intent, conn, BIND_AUTO_CREATE);
 		}
 		if(v.equals(unbind)){
+			Log.e(TAG, "点击unbind");
 			unbindService(conn);
 		}
 		if(v.equals(call)){
+			Log.e(TAG, "点击call");
 			try {
 				is.callMethodInService();
 			} catch (RemoteException e) {
